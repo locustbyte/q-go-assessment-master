@@ -1,0 +1,99 @@
+exports[`<TodoList /> should match its empty snapshot 1`] = `
+<div
+  className="itemCreator">
+  <form
+    onSubmit={[Function]}>
+    <input
+      autoFocus={true}
+      className="itemCreator-input"
+      onChange={[Function]}
+      placeholder="What do you need to do?"
+      type="text"
+      value="" />
+    <input
+      className="itemCreator-button"
+      type="submit"
+      value="Add Task" />
+  </form>
+  <ul
+    className="itemsList-ul">
+    <li
+      className="completed-false">
+      <input
+        onClick={[Function]}
+        type="checkbox" />
+      <strong>
+        TASK:
+      </strong>
+       
+      Make sure items are completeable
+       
+      <span
+        className="added">
+        added 
+        8 months ago
+      </span>
+       
+      <span
+        onClick={[Function]}>
+        <i
+          aria-hidden="true"
+          className="fa fa-minus-circle" />
+         DELETE
+      </span>
+    </li>
+    <li
+      className="completed-false">
+      <input
+        onClick={[Function]}
+        type="checkbox" />
+      <strong>
+        TASK:
+      </strong>
+       
+      Add filters (Use HOC)
+       
+      <span
+        className="added">
+        added 
+        7 months ago
+      </span>
+       
+      <span
+        onClick={[Function]}>
+        <i
+          aria-hidden="true"
+          className="fa fa-minus-circle" />
+         DELETE
+      </span>
+    </li>
+  </ul>
+  <ul
+    className="filters">
+    <li>
+      Showing: 
+    </li>
+    <li
+      className="active"
+      onClick={[Function]}>
+      ALL
+    </li>
+    <li
+      className=""
+      onClick={[Function]}>
+      COMPLETE
+    </li>
+    <li
+      className=""
+      onClick={[Function]}>
+      INCOMPLETE
+    </li>
+    <div
+      className="">
+      <h2>
+        To run tests: npm test
+      </h2>
+    </div>
+  </ul>
+</div>
+`;

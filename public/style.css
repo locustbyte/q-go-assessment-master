@@ -1,0 +1,96 @@
+.itemsList-ul {
+  list-style-type: none;
+  margin: 50px auto;
+  padding: 0px;
+  width: 40%;
+}
+
+.itemsList-ul li {
+  padding: 5px;
+  text-align: center;
+}
+
+.itemsList-ul li.todoComplete {
+  text-decoration: line-through;
+}
+
+
+.itemCreator {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.itemCreator .filters{
+    margin: 50px 0px 0px 0px;
+    padding: 50px;
+    background-color: #044ca3;
+    color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.filters li {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.filters li.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.itemCreator-input {
+  height: 30px;
+  width: 300px;
+}
+
+.itemCreator-button {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+
+
+.app{
+    text-align: center;
+    color: black;
+}
+
+
+
+input, select {
+    margin-right: 10px;
+}
+
+select {
+    height: 52px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+
+
+
+
+.added {
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+}
+
+li.completed-true {
+    text-decoration: line-through;
+}

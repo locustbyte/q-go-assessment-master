@@ -1,0 +1,111 @@
+exports[`<TodoItem /> should attach an onclick handler passed in 1`] = `
+<li
+  className="completed-true">
+  <input
+    onClick={[Function]}
+    type="checkbox" />
+  <strong>
+    TASK:
+  </strong>
+   
+  Call the evangelist
+   
+  <span
+    className="added">
+    added 
+    a few seconds ago
+  </span>
+   
+  <span
+    onClick={[Function]}>
+    <i
+      aria-hidden="true"
+      className="fa fa-minus-circle" />
+     DELETE
+  </span>
+</li>
+`;
+
+exports[`<TodoItem /> should match its empty snapshot 1`] = `
+<li
+  className="completed-false">
+  <input
+    onClick={[Function]}
+    type="checkbox" />
+  <strong>
+    TASK:
+  </strong>
+   
+  Empty todo
+   
+  <span
+    className="added">
+    added 
+    a few seconds ago
+  </span>
+   
+  <span
+    onClick={[Function]}>
+    <i
+      aria-hidden="true"
+      className="fa fa-minus-circle" />
+     DELETE
+  </span>
+</li>
+`;
+
+exports[`<TodoItem /> should render a todo item with a classname 1`] = `
+<li
+  className="completed-true">
+  <input
+    onClick={[Function]}
+    type="checkbox" />
+  <strong>
+    TASK:
+  </strong>
+   
+  Call the evangelist
+   
+  <span
+    className="added">
+    added 
+    a few seconds ago
+  </span>
+   
+  <span
+    onClick={[Function]}>
+    <i
+      aria-hidden="true"
+      className="fa fa-minus-circle" />
+     DELETE
+  </span>
+</li>
+`;
+
+exports[`<TodoItem /> should render its children 1`] = `
+<li
+  className="completed-true">
+  <input
+    onClick={[Function]}
+    type="checkbox" />
+  <strong>
+    TASK:
+  </strong>
+   
+  Call the evangelist
+   
+  <span
+    className="added">
+    added 
+    a few seconds ago
+  </span>
+   
+  <span
+    onClick={[Function]}>
+    <i
+      aria-hidden="true"
+      className="fa fa-minus-circle" />
+     DELETE
+  </span>
+</li>
+`;
