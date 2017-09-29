@@ -124,8 +124,8 @@ class TodoList extends React.Component {
                 <ul className="filters">
                     <li>Showing: </li>
                     {this.renderFilters()}
-                    <Instructions />
                 </ul>
+                <Instructions />
 
             </div>
         );
