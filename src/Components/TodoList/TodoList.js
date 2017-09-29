@@ -43,12 +43,23 @@ class TodoList extends React.Component {
         ];
     }
 
+    
+
     removeTodo(name, i){
+        console.log(name)
         let todos = this.state.todos.slice();
-        todos.splice(i, 1);
-        this.setState({
-            todos
-        });
+        
+        for(var ii = 0; ii < todos.length; ii += 1) {
+            if(todos[ii].id === name) {
+                
+                todos.splice(ii, 1);
+                this.setState({
+                    todos
+                });
+                return ii;
+            }
+        }
+        return -1;        
     }
     
 
