@@ -46,7 +46,6 @@ class TodoList extends React.Component {
     
 
     removeTodo(name, i){
-        console.log(name)
         let todos = this.state.todos.slice();
         
         for(var ii = 0; ii < todos.length; ii += 1) {
