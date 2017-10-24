@@ -1,3 +1,8 @@
+NPM START to run
+
+NPM TEST for tests
+select a for all tests (if failures first time around 'u' to update schema. then will pass ;)
+
 # QGO Desktop Assessment
 
 ## Overview

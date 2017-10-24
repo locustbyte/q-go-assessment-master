@@ -31,7 +31,7 @@ exports[`<TodoList /> should match its empty snapshot 1`] = `
       <span
         className="added">
         added 
-        8 months ago
+        a month ago
       </span>
        
       <span
@@ -56,7 +56,7 @@ exports[`<TodoList /> should match its empty snapshot 1`] = `
       <span
         className="added">
         added 
-        7 months ago
+        a month ago
       </span>
        
       <span
@@ -88,12 +88,20 @@ exports[`<TodoList /> should match its empty snapshot 1`] = `
       onClick={[Function]}>
       INCOMPLETE
     </li>
-    <div
-      className="">
-      <h2>
-        To run tests: npm test
-      </h2>
-    </div>
   </ul>
+  <div
+    className="instructions">
+    <h2>
+      To run tests: npm test
+    </h2>
+    <hr />
+    <h2>
+      Production Build: yarn build (npm install yarn)
+    </h2>
+    <h4>
+      (Produce minified scripts etc)
+    </h4>
+    <hr />
+  </div>
 </div>
 `;
